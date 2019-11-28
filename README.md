@@ -13,7 +13,7 @@ php think apiadmin:install --db mysql://root:123456@127.0.0.1:3306/apiadmin#utf8
 ```
 php think migrate:run
 ```
->--- 数据模型
+> 数据模型
 $activity_id = $this->request->get('xid');
 $activityObj = Tactivity::get(['id'=>$activity_id]);
 // 查询博客数据
